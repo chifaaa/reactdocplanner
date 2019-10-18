@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactdocplanner/static/css/main.70c8d22c.chunk.css",
+    "main.js": "/reactdocplanner/static/js/main.02147cea.chunk.js",
+    "main.js.map": "/reactdocplanner/static/js/main.02147cea.chunk.js.map",
+    "runtime-main.js": "/reactdocplanner/static/js/runtime-main.b60d0a71.js",
+    "runtime-main.js.map": "/reactdocplanner/static/js/runtime-main.b60d0a71.js.map",
+    "static/js/2.391dbbc9.chunk.js": "/reactdocplanner/static/js/2.391dbbc9.chunk.js",
+    "static/js/2.391dbbc9.chunk.js.map": "/reactdocplanner/static/js/2.391dbbc9.chunk.js.map",
+    "index.html": "/reactdocplanner/index.html",
+    "precache-manifest.06db1569f6037ff23b92312093a819b6.js": "/reactdocplanner/precache-manifest.06db1569f6037ff23b92312093a819b6.js",
+    "service-worker.js": "/reactdocplanner/service-worker.js",
+    "static/css/main.70c8d22c.chunk.css.map": "/reactdocplanner/static/css/main.70c8d22c.chunk.css.map",
+    "static/media/logo.png": "/reactdocplanner/static/media/logo.fee779e1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b60d0a71.js",
+    "static/js/2.391dbbc9.chunk.js",
+    "static/css/main.70c8d22c.chunk.css",
+    "static/js/main.02147cea.chunk.js"
+  ]
+}
