@@ -1,22 +1,147 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+.service-card {
+  border-radius: 10px;
+  overflow: hidden;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.category {
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
+.title {
+  color: white;
+  margin: 0 0 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.screenshot {
+  width: 400px;
+  align-self: flex-end;
+  position: relative;
+  right: -70px;
+}
+.features {
+  display: flex;
+  background-color: #dff5f4;
+}
+.feature-card {
+  color: #00b39b;
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  width: 200px;
+  min-height: 250px;
+  border-radius: 4px;
+}
+.feature-card-description {
+  color: grey;
 }
 
-.App-link {
-  color: #09d3ac;
+
+
+.logo-docplanner{
+  height:40px; 
+  width:269px;
+}
+header{
+
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  position: sticky;
+  background-color:rgba(255, 255, 255,0.9); 
+  z-index: 10;
+  box-shadow: 0px 0px 10px 0px rgb(240, 240, 240);
+  margin: 0px;
+  padding: 0px; 
+}
+.main-menu{
+  display: flex;
+  justify-content:space-around;
+  list-style: none;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  Font-size: 15px;
+  color: rgb(0, 179, 155);
+}
+li{
+  margin: 10px;
+  font-weight: bold
+}
+.service-cards{
+
+  display: flex;
+  justify-content:space-around;
+}
+.logo-center{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+/* .whole{
+  padding-left: 200px;
+  padding-right: 200px;
+} */
+.inner-section-paragraphs{
+  display: flex;
+  justify-content:space-between;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;Font-size: 16px;Font-weight: 400;color:rgb(116, 116, 116);Line-height: 28px;
+}
+.svg{
+  fill: rgb(201, 200, 200);
+}
+.inner-section-paragraphs,.service-cards,.thesvgs{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+footer{
+  border-top: 1px solid #eef2f2;
+  font-size: .75em;
+  color: #ababab;
+  text-align: center;
+  position: relative;
+  top: 170px;
+  text-align: center;
+  width: 100%;
+}
+.country-link{
+  color:rgb(106, 158, 230);
+
+}
+.Btn{
+
+  text-align:center ;
+  padding: 10px;
+  width: 150px;
+  height:32px; 
+  background-color:rgba(22, 98, 198,0.5);
+  border-radius:5px;
+  Font-family: 'Helvetica Neue';
+  Font-size: 10px;
+  color: rgb(255, 255, 255)
+}
+.last-section-box{
+  border: solid;
+  border-color:rgb(247, 247, 247);
+  width: 310px;
+  height: 350px;
+  margin: 10px;
+  border-radius: 5px;
+  border-width:1px;
+}
+.postcardsdiv{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;}
+a{
+  text-decoration: none;
 }
